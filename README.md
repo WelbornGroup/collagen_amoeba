@@ -32,9 +32,9 @@ subdirectory `python` with files:
 
 `vmd_lysglc.tcl` - glucose-lysine hbonds, water-lysine hbonds, glucose-lysine rdf, water-lysine rdf, glucoses around lysine, waters around lysine.
 
-`vmd_pbwater_xxxsel_template` - Gly-Xaa(Pro) hbonds, collagen-water hbonds, waters around collagen with pbc, for a selection `xxxsel` (to be added by user).
+`vmd_pbwater_xxxsel_template` - Gly-Xaa(Pro) hbonds, CMP-water hbonds, waters around CMP with pbc, for a selection `xxxsel` (to be added by user).
 
-`vmd_sharedwater.tcl` - get waters around protein, based on sections of collagen (`deformed` and `helical`), and check for waters shared between the section of collagen and glucose molecules.
+`vmd_sharedwater.tcl` - get waters around protein, based on sections of CMP (`deformed` and `helical`), and check for waters shared between the section of collagen and glucose molecules.
 
 `vmd_total` - various hbonds, backbone dihedrals, pyrroldine pucker angles, various rdfs, end-to-end distances, waters around protein (for residence time in `python/residence_time.py`), C $\alpha$ coordinates for deformations (in `python/HeliXplore.py`), coordinates of (N, C $\alpha$, C, O) atoms for $n \rightarrow \pi^*$ interactions (in `python/pyramidalization.py`), backbone RMSD, waters around glucose (for residence time in `python/residence_time.py`), glucoses around protein (for residence time in `python/residence_time.py`).
 
