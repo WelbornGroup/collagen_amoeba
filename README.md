@@ -1,4 +1,4 @@
-# MD simulations using AMOEBA Force Field for the study: "Using AMOEBA to Uncover Deformation, Hydration Anisotropy, and Glucose Sensitivity in Collagen Mimetic Peptides".
+# MD simulations using AMOEBA Force Field for the study: "Using AMOEBA to Uncover Deformation and Hydration Anisotropy in Collagen Mimetic Peptides".
 
 NOTE: Before the paper is published only Movie_S1.mp4 will be made available. The rest will be added afterwards.
 
@@ -46,6 +46,6 @@ Movie_S1.mp4 - Movie S1 of the SI.
 
 If you use this repository or scripts in your work, please cite the associated publications:
 
-```Using AMOEBA to Uncover Deformation, Hydration Anisotropy, and Glucose Sensitivity in Collagen Mimetic Peptides, Ronnie Mondal and Valerie Vaissier Welborn, Journal Name, Year. [DOI/link to be added when available]```
+```Using AMOEBA to Uncover Deformation and Hydration Anisotropy in Collagen Mimetic Peptides, Ronnie Mondal and Valerie Vaissier Welborn, Journal Name, Year. [DOI/link to be added when available]```
 
 See also: ```HeliXplore: A Python package for analyzing multi-strand helix deformations , Ronnie Mondal and Valerie Vaissier Welborn, Journal Name, Year. [DOI/link to be added when available]```
