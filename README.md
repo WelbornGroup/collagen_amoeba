@@ -4,7 +4,11 @@ NOTE: Before the paper is published only Movie_S1.mp4 will be made available. Th
 
 ### Structure files for the CHARMM MD simulations:
 
-subdirectory `ppgn_charmm` with files as `ppg{n}_{glc}mM_solvated_charmm.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25) and `glc` is the concentration of glucose in mM (0, 500, 1000, 2000).
+subdirectory `ppgn_charmm` with files as `ppg{n}_charmm.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25). The same input files were used for CHARMM36+TIP3P, CHARMM36+TIP4P and CHARMM35mGP+TIP4P.
+
+### Structure files for the AMBER MD simulations:
+
+subdirectory `ppgn_amber` with files as `ppg{n}_amber.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25). Used for AMBER(ff19sb)+TIP4P.
 
 ### Structure files for the AMOEBA MD simulations:
 
@@ -25,6 +29,8 @@ subdirectory `python` with files:
 `pyramidalization.py` - python functions to calculate condtions to satisfy $n \rightarrow \pi^*$ interactions.
 
 `residence_time.py` - python functions to calculate residence time using thresholds defined in Impey's algorithm.
+
+`waterdyn.py` - python code to use the quaternion method to quantify hydration dynamics.
 
 ### VMD scripts for analysis:
 
