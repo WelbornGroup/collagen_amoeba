@@ -1,7 +1,5 @@
 # MD simulations using AMOEBA Force Field for the study: "Using AMOEBA to Uncover Deformation and Hydration Anisotropy in Collagen Mimetic Peptides".
 
-NOTE: Before the paper is published only Movie_S1.mp4 will be made available. The rest will be added afterwards.
-
 ### Structure files for the CHARMM MD simulations:
 
 subdirectory `ppgn_charmm` with files as `ppg{n}_charmm.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25). The same input files were used for CHARMM36+TIP3P, CHARMM36+TIP4P and CHARMM35mGP+TIP4P.
