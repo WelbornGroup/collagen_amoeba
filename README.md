@@ -2,11 +2,11 @@
 
 ### Structure files for the CHARMM MD simulations:
 
-subdirectory `ppgn_charmm` with files as `ppg{n}_charmm.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25). The same input files were used for CHARMM36+TIP3P, CHARMM36+TIP4P and CHARMM35mGP+TIP4P.
+subdirectory `ppgn_charmm` with files as `ppg{n}_charmm.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25). The same input files were used for CHARMM36+TIP3P, CHARMM36+TIP4P and CHARMM35mGP+TIP4P. Includes .mdp files from CHARMM-GUI.
 
 ### Structure files for the AMBER MD simulations:
 
-subdirectory `ppgn_amber` with files as `ppg{n}_amber.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25). Used for AMBER(ff19sb)+TIP4P.
+subdirectory `ppgn_amber` with files as `ppg{n}_amber.pdb` - in pdb file format, where `n` is the number of tripeptides (5, 12, 25). Used for AMBER(ff19sb)+TIP4P. Includes .mdp files from CHARMM-GUI.
 
 ### Structure files for the AMOEBA MD simulations:
 
